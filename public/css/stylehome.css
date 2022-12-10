@@ -305,13 +305,14 @@ and (max-device-width : 900.999999999999px) {
         justify-content: center;
         position: absolute;
         z-index: 20;
-        top: 92%;
-        left: 24%;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, 0);
         background-color: #56689e;
         border-radius: 0.5rem;
         opacity: 0.8;
-        width: 18.8rem;
-        height: 4rem;
+        width: 13rem;
+        height: 3rem;
     }
     
     .button_bg button{
@@ -319,15 +320,15 @@ and (max-device-width : 900.999999999999px) {
         margin: 0.2rem;
         border-radius: 0.2rem;
         border: transparent;
-        width: 3.1rem; 
-        height: 3.1rem;
+        width: 2.1rem; 
+        height: 2.1rem;
         padding: 0;
         background: transparent;
     }
     
     #btn_bg1 img {
-        height: 3rem;  
-        width: 3rem;
+        height: 2rem;  
+        width: 2rem;
         border-radius: 0.2rem;
     }
     
@@ -339,10 +340,10 @@ and (max-device-width : 900.999999999999px) {
     .upload_icon {
         position: absolute;
         z-index: 10;
-        top: 94%;
+        top: 91%;
         left: 13%;
-        width: 2.6rem;
-        height: 2.6rem;
+        width: 2.1rem;
+        height: 2.1rem;
         border-radius: 2rem;
         border: 0.02rem solid transparent;
     }
@@ -357,7 +358,8 @@ and (max-device-width : 900.999999999999px) {
         top: 0;
         left: 0;
         width: 100%;
-        padding: 1.363rem 3.138rem;
+        margin-top: 0.7rem;
+        margin-left: 1.4rem;
         z-index: 10;
     }
     
@@ -369,24 +371,29 @@ and (max-device-width : 900.999999999999px) {
         text-transform: uppercase;
         cursor: pointer;
     }
-    
-    .remove_cover img{
-        z-index: 15;
+
+    .remove_cover {
         position: absolute;
-        border-radius: 0.1rem;
-        width: 13.5rem;
-        height: 15.3rem;
         top: 13%;
         left: 2.9%;
     }
     
+    .remove_cover img{
+        z-index: 15;
+        position: relative;
+        border-radius: 0.1rem;
+        width: 13.8rem;
+        height: 15.8rem;
+    }
+
+    
     .remove_cover button{
         padding: 0.4rem;
         position: absolute;
+        top: 65%;
+        left: 14%;
         border-radius: 0.5rem;
         z-index: 20;
-        left: 6%;
-        top: 35%;
         font-family: 'Kanit', sans-serif;
         font-size: 0.7rem;
         font-weight: 300;
@@ -463,7 +470,7 @@ and (max-device-width : 900.999999999999px) {
         border-radius: 0.8rem;
         width: 13.5rem;
         height: 10rem;
-        top: 63%;
+        top: 58%;
         left: 3%;
     }
     
@@ -477,7 +484,7 @@ and (max-device-width : 900.999999999999px) {
         text-align: center;
         justify-content: center;
     }
-    
+    /*
     #sound1{
         position: relative;
         z-index: 15;
@@ -485,32 +492,41 @@ and (max-device-width : 900.999999999999px) {
         margin-bottom: 1rem;
         background-color: transparent;
     }
-    
+    */
     .spotify {
         position: absolute;
-        z-index: 15;
-        left: 40%;
+        z-index: 30;
+        left: 58%;
+        top: 40%;
+        transform: translate(-50%, 0);
         top: 7%;
-        width: 8rem;
-        height: 12rem;    
     }
     
     .spotify iframe {
         border-radius: 0.7rem;
+        width: 13rem;
+        height: 18rem;
     }
     
     .button_spt {
-    
         position: absolute;
         z-index: 15;
-        right: -3.3rem; 
+        /*
+        right: -11%;
         top: 20%;
+        margin: 0px;
         transform: rotate(-90deg);
+        */
+        right: 6%;
+        top: 20%;
+        margin: 0;
+        transform: rotate(-90deg);
+        transform-origin: right;
     
     }
     
     .button_spt button {
-        margin: 0px;
+
         width: 8rem;
         font-size: 1.3rem;
         font-family: 'Amatic SC', sans-serif;
@@ -530,17 +546,17 @@ and (max-device-width : 900.999999999999px) {
     
     /* chat box control */
     .button_chat {
-    
         position: absolute;
         z-index: 15;
-        right: -3.3rem; 
+        right: 6%;
         top: 60%;
+        margin: 0;
         transform: rotate(-90deg);
-    
+        transform-origin: right;
     }
     
     .button_chat button {
-        margin: 0px;
+        
         width: 8rem;
         font-size: 1.3rem;
         font-family: 'Amatic SC', sans-serif;
