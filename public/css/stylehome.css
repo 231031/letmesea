@@ -497,9 +497,8 @@ and (max-device-width : 900.999999999999px) {
         position: absolute;
         z-index: 30;
         left: 58%;
-        top: 40%;
+        top: 10%;
         transform: translate(-50%, 0);
-        top: 7%;
     }
     
     .spotify iframe {
@@ -517,7 +516,7 @@ and (max-device-width : 900.999999999999px) {
         margin: 0px;
         transform: rotate(-90deg);
         */
-        right: 0%;
+        right: 0;
         top: 15%;
         margin: 0;
         transform: rotate(-90deg);
