@@ -13,6 +13,22 @@ app.use(express.static(__dirname +'/public'));
 app.get("/", (req, res) => {
     res.sendFile(__dirname +'/index.html');
 })
+
+app.get("/afternoon", (req, res) => {
+    res.sendFile(__dirname +'/afternoon.html');
+})
+
+app.get("/evening", (req, res) => {
+    res.sendFile(__dirname +'/evening.html');
+})
+
+app.get("/night", (req, res) => {
+    res.sendFile(__dirname +'/night.html');
+})
+
+app.get("/minimal", (req, res) => {
+    res.sendFile(__dirname +'/minimal.html');
+})
 /*
 io.on("connect", (socket) => {
     console.log("User connected");
