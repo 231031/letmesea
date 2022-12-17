@@ -68,7 +68,7 @@ function change_bg(clicked_id)
       else if (clicked_id == 4) {
         document.getElementById("bg_img").src="https://i.pinimg.com/originals/52/86/71/528671b25753cd9e4f5e48c1586ae88b.gif";
       } else {
-		document.getElementById("bg_img").src="https://i.pinimg.com/originals/be/1a/33/be1a338704efc57093b6dec8e196439b.gif";
+		document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/overcast-sea-beach-waves-at-night-wide.jpg";
 	  }
     //document.getElementById("bg_img").src="image/afternoon.jpg";
 }

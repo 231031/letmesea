@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+@media only screen 
+and (min-width : 901px) {
 .contain-chat {
     z-index: 1000;
     position: absolute;
@@ -12,8 +14,8 @@
     width: 18rem;
     height: 20rem;
     background-color: antiquewhite;
-    left: 50%;
-    top: 50%;
+    left: 85%;
+    top: 60%;
     transform: translate(-50%, -50%);
     border-radius: 0.5rem;
 }
@@ -98,4 +100,102 @@
     font-size: 0.8rem;
     font-weight: 500;
 }
+}
 
+@media only screen 
+and (min-device-width : 100.99999999999px) 
+and (max-device-width : 900.999999999999px) {
+    .contain-chat {
+        z-index: 1000;
+        position: absolute;
+        overflow-y: scroll;
+        width: 18rem;
+        height: 20rem;
+        background-color: antiquewhite;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 0.5rem;
+    }
+    
+    #form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 15rem;
+        height: 3rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 0.5rem;
+    }
+    
+    
+    #input {
+        background: #eee;
+        height: 1.5rem;
+        padding: 0.9rem;
+        border-radius: 0.5rem;
+        color: #424242;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    
+    #form button {
+        background: #4ca;
+        position: relative;
+        width: 5rem;
+        left: 50%;
+        transform:  translate(-50%, 0);
+        color: #fff;
+    
+        border: none;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        padding: 0.25rem;
+        margin-top: 0.3rem;
+    
+        font-family: 'Kanit', sans-serif;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    
+    #messages {
+        position: relative;
+        width: 15rem;
+        list-style-type: none;
+        z-index: 30;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    
+    #messages li {
+        display: flex;
+        z-index: 30;
+    }
+    
+    #messages li.right {
+        justify-content: flex-end;
+        z-index: 30;
+    }
+    
+    #messages li span {
+        background-color: #eee;
+        color: #424242;
+        padding: 0.3rem;
+        margin: 0.5rem 0.8rem;
+        border-radius: 0.5rem;
+        font-family: 'Kanit', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+    
+    }
+    
+    #messages li.right span {
+        margin: 0.5rem 0.8rem;
+        border-radius: 0.3rem;
+        font-family: 'Kanit', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+}
