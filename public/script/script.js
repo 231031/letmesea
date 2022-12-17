@@ -55,16 +55,16 @@ function showChat() {
 function change_bg(clicked_id)
 {
     if (clicked_id == 1) {
-        document.getElementById("bg_img").src="https://images.pexels.com/photos/1430677/pexels-photo-1430677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+        document.getElementById("bg_img").src="https://wallpapercave.com/wp/wp11461627.jpg";
       } else if (clicked_id == 2) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/4e/80/38/4e8038228e029c3ddd9c7b90b293af9d.gif";
+        document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/sunrise-huntington-beach-state-park-5k-ub.jpg";
       } else if (clicked_id == 3) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/85/bf/2c/85bf2cd735d075bb9ece4be5996605b1.gif";
+        document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/nhulunbuy-sunrise-australia-ld.jpg";
       }
       else if (clicked_id == 4) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/52/86/71/528671b25753cd9e4f5e48c1586ae88b.gif";
+        document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/coast-sunrises-sky-catalonia-91.jpg";
       } else {
-		document.getElementById("bg_img").src="https://i.pinimg.com/originals/be/1a/33/be1a338704efc57093b6dec8e196439b.gif";
+		document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/sunrise-huntington-beach-state-park-5k-ub.jpg";
 	  }
     //document.getElementById("bg_img").src="image/afternoon.jpg";
 }
