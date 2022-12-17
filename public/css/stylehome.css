@@ -27,7 +27,7 @@ and (min-width : 901px) {
     z-index: 20;
     top: 83%;
     left: 73%;
-    background-color: #56689e;
+    background-color: #D9D9D9;
     border-radius: 0.5rem;
     opacity: 0.9;
     width: 23.85rem;
@@ -53,7 +53,7 @@ and (min-width : 901px) {
 
 .button_bg button:hover{
     cursor: pointer;
-    border: 0.01rem solid #FFE090;
+    border: 0.01rem solid #D9D9D9;
 }
 
 .upload_icon {
@@ -112,12 +112,12 @@ header h1 {
     font-weight: 300;
     width: 15rem;
     border: 0.125rem solid transparent;
-    background: #FFE090;
+    background: #D9D9D9;
 }
 
 .remove_cover button:hover {
     cursor: pointer;
-    border: 0.125rem solid #FFE090;
+    border: 0.125rem solid #D9D9D9;
     background: transparent;
     color: blue;
 
@@ -153,11 +153,12 @@ header h1 {
     border: solid transparent;
     padding: 0.5rem;
     background: #FFE090;
+    color: #3D5396;
 }
 
 .content_heal button:hover {
     cursor: pointer;
-    border: solid #FFE090;
+    border: solid #D9D9D9;
     background: transparent;
     color: blue;
 
@@ -169,8 +170,8 @@ header h1 {
     background-position: center;
     border-radius: 0.7rem;
     z-index: 30;
-    height: 33vh;
-    width: 35vh;
+    height: 34vh;
+    width: 37vh;
 }
 
 
@@ -178,7 +179,7 @@ header h1 {
 .content_sea {
     position: absolute;
     z-index: 10;
-    background: #56689e;
+    background: #D9D9D9;
     opacity: 0.9;
     border-radius: 0.8rem;
     width: 18.5rem;
@@ -239,8 +240,9 @@ header h1 {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     border: transparent;
-    background: #FFE090;
+    background: #D9D9D9;
     opacity: 0.85;
+    color: #3D5396;
 }
 
 .button_spt button:hover {
@@ -269,13 +271,15 @@ header h1 {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     border: transparent;
-    background: #FFE090;
+    background: #D9D9D9;
     opacity: 0.85;
+    color: #3D5396;
 }
 
 .button_chat button:hover {
     cursor: pointer;
 }
+
 }
 
 
@@ -308,7 +312,7 @@ and (max-device-width : 900.999999999999px) {
         top: 85%;
         left: 50%;
         transform: translate(-50%, 0);
-        background-color: #56689e;
+        background-color: #D9D9D9;
         border-radius: 0.5rem;
         opacity: 0.9;
         width: 13rem;
@@ -334,7 +338,7 @@ and (max-device-width : 900.999999999999px) {
     
     .button_bg button:hover{
         cursor: pointer;
-        border: 0.01rem solid #FFE090;
+        border: 0.01rem solid #D9D9D9;
     }
     
     .upload_icon {
@@ -399,12 +403,12 @@ and (max-device-width : 900.999999999999px) {
         font-weight: 300;
         width: 10rem;
         border: 0.125rem solid transparent;
-        background: #FFE090;
+        background: #D9D9D9;
     }
     
     .remove_cover button:hover {
         cursor: pointer;
-        border: 0.125rem solid #FFE090;
+        border: 0.125rem solid #D9D9D9;
         background: transparent;
         color: blue;
     
@@ -440,11 +444,12 @@ and (max-device-width : 900.999999999999px) {
         border: solid transparent;
         padding: 0.5rem;
         background: #FFE090;
+        color: #3D5396;
     }
     
     .content_heal button:hover {
         cursor: pointer;
-        border: solid #FFE090;
+        border: solid #D9D9D9;
         background: transparent;
         color: blue;
     
@@ -465,7 +470,7 @@ and (max-device-width : 900.999999999999px) {
     .content_sea {
         position: absolute;
         z-index: 10;
-        background: #56689e;
+        background: #D9D9D9;
         opacity: 0.9;
         border-radius: 0.8rem;
         width: 13.5rem;
@@ -541,7 +546,8 @@ and (max-device-width : 900.999999999999px) {
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
         border: transparent;
-        background: #FFE090;
+        background: #D9D9D9;
+        color: #3D5396;
         opacity: 0.85;
     }
     
@@ -577,7 +583,8 @@ and (max-device-width : 900.999999999999px) {
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
         border: transparent;
-        background: #FFE090;
+        background: #D9D9D9;
+        color: #3D5396;
         opacity: 0.85;
     }
     

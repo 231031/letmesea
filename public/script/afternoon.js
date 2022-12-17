@@ -7,7 +7,7 @@ const imageArray = [
 	"https://images.unsplash.com/photo-1504966981333-1ac8809be1ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9a1325446cbf9b56f6ee549623a50696&auto=format&fit=crop&w=1350&q=80",
 	"https://images.unsplash.com/photo-1437075130536-230e17c888b5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff573beba18e5bf45eb0cccaa2c862b3&auto=format&fit=crop&w=1350&q=80",
 	"image/quote1.png",
-	"https://images.unsplash.com/photo-1506057278219-795838d4c2dd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f68d8d7b0223cd906ea8cac13421881d&auto=format&fit=crop&w=1350&q=80",
+	"image/quote2.png",
 	"https://images.unsplash.com/photo-1488402410361-05152fa654d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5266aadc96d5b5b23996e7120d3190a8&auto=format&fit=crop&w=1350&q=80",
 	"https://images.unsplash.com/photo-1475598322381-f1b499717dda?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cb49f991ce8dd947b45ccd1bd905ec8c&auto=format&fit=crop&w=1355&q=80",
 	"https://images.unsplash.com/photo-1501949997128-2fdb9f6428f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=951ee200e732c9b8c4ea0a7372ca9d27&auto=format&fit=crop&w=1350&q=80",
@@ -57,7 +57,7 @@ function change_bg(clicked_id)
     if (clicked_id == 1) {
         document.getElementById("bg_img").src="https://w0.peakpx.com/wallpaper/321/117/HD-wallpaper-afternoon-sea-colorful-glow-ocean-pier-colors-beautiful-sky-clouds-lake-mirrored-sea-afternoon-water-nature-morning-reflection.jpg";
       } else if (clicked_id == 2) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/4e/80/38/4e8038228e029c3ddd9c7b90b293af9d.gif";
+        document.getElementById("bg_img").src="https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
       } else if (clicked_id == 3) {
         document.getElementById("bg_img").src="https://i.pinimg.com/originals/85/bf/2c/85bf2cd735d075bb9ece4be5996605b1.gif";
       }
