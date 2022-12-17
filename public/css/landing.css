@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amiri:wght@400;700&family=Kalam:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================================== phone =================================*/
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 700px) { 
+
+    .background img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-repeat: repeat;
+    }
+
+    .landing {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #3E5598;
+        z-index: 2;
+    }
+
+    header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 20%;
+        z-index: 10;
+    }
+    
+    header .name{
+        color: #F7F5F4;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 2.9rem;
+        font-family: 'Kalam', arial, helvetica, sans-serif;
+        font-weight: 300;
+    }
+    
+
+    /*
+    .landing video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    */
+    .btn {
+        position: absolute;
+        width: 51%;
+        z-index: 10;
+        background: #F7F5F4;
+        opacity: 0.7;
+        padding: 0.5rem 1.7rem;
+        border: 0.125rem solid transparent;
+        border-radius: 1rem;
+        letter-spacing: 0.2rem;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .btn:hover {
+        border: 0.125rem solid #fff;
+        background: transparent;
+    
+    }
+    
+    .btn img{
+        width: 1.2rem;
+        position: absolute;
+        top : 50%;
+        left: 7%;
+        transform: translate(0, -50%);
+    }
+    
+    .btn a{
+        font-family: 'Amatic SC', cursive;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #091B48;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        left: 13%;
+        top: 50%;
+        transform: translate(0, -50%);
+
+    }
+    
+    .btn a:hover{
+        color: blue;
+    }
+
+}
+
+
+/* ================================================ desktops ============================================================= */
+@media only screen 
+and (min-width : 701px) {
+    .background img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-repeat: repeat;
+    }
+
+    .landing {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        z-index: 5;
+    }
+
+    header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        top: 20%;
+        z-index: 10;
+    }
+    
+    header .name{
+        color: #F7F5F4;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 6.5rem;
+        font-family: 'Kalam', arial, helvetica, sans-serif;
+        font-weight: 700;
+    }
+    /*
+    .landing video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    */
+    .btn {
+        position: absolute;
+        z-index: 10;
+        /*display: block;*/
+        background: #F7F5F4;
+        opacity: 0.85;
+        padding: 0.625rem 1.875rem;
+        border: 0.125rem solid transparent;
+        border-radius: 1rem;
+        letter-spacing: 0.125rem;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        
+    }
+    
+    .btn:hover {
+        border: 0.125rem solid blue;
+        background: transparent;
+    
+    }
+    
+    .btn img{
+        position: absolute;
+        top : 50%;
+        left: 5%;
+        transform: translate(0, -50%);
+    }
+    
+    .btn a{
+        font-family: 'Amatic SC', cursive;
+        font-size: 2.1rem;
+        font-weight: bold;
+        color: #091B48;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        left: 12%;
+        top: 50%;
+    }
+    
+    .btn a:hover{
+        color: blue;
+    }
+}
+
+
+
+
+
