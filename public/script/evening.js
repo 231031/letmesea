@@ -55,9 +55,9 @@ function showChat() {
 function change_bg(clicked_id)
 {
     if (clicked_id == 1) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/ef/21/20/ef212097b6111cd26f33b5373dbaf544.gif";
+        document.getElementById("bg_img").src="https://c0.wallpaperflare.com/preview/312/791/674/greece-sunset-west-topio.jpg";
       } else if (clicked_id == 2) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/4e/80/38/4e8038228e029c3ddd9c7b90b293af9d.gif";
+        document.getElementById("bg_img").src="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
       } else if (clicked_id == 3) {
         document.getElementById("bg_img").src="https://i.pinimg.com/originals/85/bf/2c/85bf2cd735d075bb9ece4be5996605b1.gif";
       }
