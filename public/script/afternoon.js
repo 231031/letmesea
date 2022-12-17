@@ -59,10 +59,10 @@ function change_bg(clicked_id)
       } else if (clicked_id == 2) {
         document.getElementById("bg_img").src="https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
       } else if (clicked_id == 3) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/85/bf/2c/85bf2cd735d075bb9ece4be5996605b1.gif";
+        document.getElementById("bg_img").src="image/afternoon1.png";
       }
       else if (clicked_id == 4) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/52/86/71/528671b25753cd9e4f5e48c1586ae88b.gif";
+        document.getElementById("bg_img").src="image/afternoon2.png";
       } else {
 		document.getElementById("bg_img").src="https://i.pinimg.com/originals/be/1a/33/be1a338704efc57093b6dec8e196439b.gif";
 	  }
