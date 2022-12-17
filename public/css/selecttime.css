@@ -19,24 +19,23 @@ and (max-device-width : 700px) {
         object-fit: cover;
     }
 
-    header {
+    .title{
+        z-index: 20;
         position: absolute;
-        top: 0;
-        left: 0;
-        padding: 1.3rem 3.2rem;
-        z-index: 10;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        top: 33%;
+        left : 50%;
+        transform: translate(-50%, -50%);
     }
-    
-    header h1 {
+
+    .title h1 {
+       
         font-family: 'Kalam', arial, helvetica, sans-serif;
         font-size: 2rem;
-        color: #111;
+        color: #fff;
         text-transform: uppercase;
         cursor: pointer;
     }
+    
     /*
     .selecttime {
         position: absolute;
@@ -104,22 +103,19 @@ and (max-device-width : 700px) {
 /*desktops*/
 @media only screen 
 and (min-width : 701px) {
-    header {
+    .title{
+        z-index: 20;
         position: absolute;
-        top: 0;
-        left: 0;
-        padding: 1.563rem 3.438rem;
-        z-index: 10;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        top: 23%;
+        left : 50%;
+        transform: translate(-50%, -50%);
     }
-    
-    header h1 {
+
+    .title h1 {
+       
         font-family: 'Kalam', arial, helvetica, sans-serif;
-        font-size: 2.8rem;
-        font-weight: 700;
-        color: #111;
+        font-size: 4rem;
+        color: #fff;
         text-transform: uppercase;
         cursor: pointer;
     }
