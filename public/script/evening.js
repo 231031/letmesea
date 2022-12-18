@@ -68,7 +68,7 @@ function change_bg(clicked_id)
       else if (clicked_id == 4) {
         document.getElementById("bg_img").src="https://wallpapercave.com/wp/wp4279673.jpg";
       } else {
-		document.getElementById("bg_img").src="https://i.pinimg.com/originals/be/1a/33/be1a338704efc57093b6dec8e196439b.gif";
+		document.getElementById("bg_img").src="https://gifimage.net/wp-content/uploads/2018/11/sunset-gif-images-3.gif";
 	  }
     //document.getElementById("bg_img").src="image/afternoon.jpg";
 }

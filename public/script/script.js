@@ -68,7 +68,7 @@ function change_bg(clicked_id)
       else if (clicked_id == 4) {
         document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/coast-sunrises-sky-catalonia-91.jpg";
       } else {
-		document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/sunrise-huntington-beach-state-park-5k-ub.jpg";
+		document.getElementById("bg_img").src="https://images5.alphacoders.com/372/372649.jpg";
 	  }
     //document.getElementById("bg_img").src="image/afternoon.jpg";
 }

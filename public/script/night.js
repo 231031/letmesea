@@ -63,10 +63,10 @@ function change_bg(clicked_id)
       } else if (clicked_id == 2) {
         document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/sea-shore-waves-at-night-time-4k-yr.jpg";
       } else if (clicked_id == 3) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/85/bf/2c/85bf2cd735d075bb9ece4be5996605b1.gif";
+        document.getElementById("bg_img").src="https://wallpapershome.com/images/pages/pic_h/5737.jpg";
       }
       else if (clicked_id == 4) {
-        document.getElementById("bg_img").src="https://i.pinimg.com/originals/52/86/71/528671b25753cd9e4f5e48c1586ae88b.gif";
+        document.getElementById("bg_img").src="https://i.pinimg.com/originals/fc/db/57/fcdb5798498468f61812490e400a6aab.gif";
       } else {
 		document.getElementById("bg_img").src="https://images.hdqwalls.com/wallpapers/overcast-sea-beach-waves-at-night-wide.jpg";
 	  }
