@@ -64,7 +64,7 @@ function change_bg(clicked_id)
     if (clicked_id == 1) {
         document.getElementById("bg_img").src="image/minimalbrownb.png";
       } else if (clicked_id == 2) {
-        document.getElementById("bg_img").src="image/minimalGirl.png";
+        document.getElementById("bg_img").src="image/minimalbrowng.png";
       } 
 }
 /*
