@@ -210,7 +210,7 @@ header h1 {
     position: absolute;
     z-index: 15;
     left: 78%;
-    top: 7%;
+    top: 13%;
 
 }
 
@@ -393,7 +393,7 @@ and (max-device-width : 900.999999999999px) {
         top: 65%;
         left: 14%;
         border-radius: 0.5rem;
-        z-index: 20;
+        z-index: 35;
         font-family: 'Kanit', sans-serif;
         font-size: 0.7rem;
         font-weight: 300;
